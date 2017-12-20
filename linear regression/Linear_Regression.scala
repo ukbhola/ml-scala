@@ -30,6 +30,8 @@ def main(): Unit = {
   println(s"RootMeanSquareError: ${trainingSummary.rootMeanSquaredError}")
   println(s"R^2 Vallue: ${trainingSummary.r2}")
   spark.stop()
+
+  print(s"Test Printing")
 }
 
 main()
